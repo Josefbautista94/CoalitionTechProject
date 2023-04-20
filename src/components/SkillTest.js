@@ -65,11 +65,11 @@ const SkillTest = () => {
           <span class="history-text">HISTORY</span>
         </h2>
         <p className="history-bio">
-          "Discover Minnewaska State Park Preserve, a stunning 22,000-acre park
+          Discover Minnewaska State Park Preserve, a stunning 22,000-acre park
           in New York's Shawangunk Mountains. Since 1957, it has provided
           endless outdoor activities for hikers, rock climbers, swimmers, and
           fishermen. Alfred Smiley's early 19th-century land donation created
-          this natural gem, drawing visitors from around the world."
+          this natural gem, drawing visitors from around the world.
         </p>
 
         <Slider className="carousel" {...settings}>
