@@ -17,8 +17,16 @@
   width: 100%;
   
 }
+
 .navbar:hover {
   background-color: white;
+}
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: none;
 }
 .title {
   margin: 0;
@@ -146,23 +154,7 @@ button.team:hover {
   line-height: 1.5;
 }
 
-.climb {
-  font-weight: bold;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  margin-top: -30px;
-  font-family: "Raleway", sans-serif;
-  color: #5f4d3d;
-  margin-left: 200px;
-}
 
-.climb span {
-  font-size: 5em;
-  opacity: 0.7;
-  margin-right: -30px;
-}
 
 .carousel-image {
   max-width: 100%;
@@ -239,4 +231,74 @@ button.team:hover {
 
 .carousel .slick-dots li.slick-active button {
   background-color: #fff;
+}
+.climb-container{
+  background-image: url("https://www.travelingfoundlove.com/wp-content/uploads/2021/04/Roadtrip-3-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 130vh;
+
+}
+.climb {
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: -30px;
+  font-family: "Raleway", sans-serif;
+  color: #5f4d3d;
+  margin-left: 200px;
+}
+
+.climb span {
+  font-size: 5em;
+  opacity: 0.7;
+  margin-right: -30px;
+}
+.climb-info{
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: -70px;
+  font-family: "Raleway", sans-serif;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0px 0px 5px #8b4513;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.climb-facts {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+.climb-facts-section {
+  text-align: center;
+}
+
+.climb-facts-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #5f4d3d;
+  background-color: rgb(93, 124, 39);
+
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
 }
