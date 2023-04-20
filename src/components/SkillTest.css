@@ -137,7 +137,7 @@ button.team:hover {
   margin: 0 auto;
   font-size: 22px;
   font-weight: bold;
-  margin-top: -90px;
+  margin-top: -70px;
   font-family: "Raleway", sans-serif;
   color: #333;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -168,15 +168,12 @@ button.team:hover {
   max-height: 200px;
   object-fit: contain;
   margin: auto;
-  transition: transform 0.2s ease-in-out;
-  position: relative;
-  z-index: 1; /* Set a higher z-index to make it appear on top of the carousel */
+  transition: transform 0.2s ease-in-out; /* Add a transition for a smoother effect */
 }
 
 .carousel-image:hover {
-  transform: scale(3.1);
+  transform: scale(1.1); /* Increase the size of the image on hover */
 }
-
 .carousel {
   display: flex;
   justify-content: center;
@@ -184,18 +181,12 @@ button.team:hover {
   background-color: rgb(131, 139, 158);
   background-size: cover;
   padding: 40px;
-  overflow: hidden;
-  margin-top: 250px;
-  position: relative; /* Add position relative to make sure the carousel image is positioned inside the carousel container */
+  overflow: hidden; /* Add this line to clip overflow from the carousel container */
+  margin-top: 219px;
+  position: relative;
+
+
 }
-Note that you also need to set the position property of the .carousel-image class to relative to ensure that it is positioned inside the carousel container.
-
-
-
-
-
-
-
 .carousel::before {
   content: "";
   position: absolute;
@@ -210,12 +201,37 @@ Note that you also need to set the position property of the .carousel-image clas
 }
 
 
-.carousel::before {
-  content: "";
+.carousel .slick-dots {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(57, 67, 93, 0.7); /* Set the desired opacity here */
+  bottom: 20px; /* adjust as needed */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carousel .slick-dots li {
+  margin: 0 5px;
+}
+
+.carousel .slick-dots li button {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.carousel .slick-dots li button:hover,
+.carousel .slick-dots li button:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.carousel .slick-dots li.slick-active button {
+  background-color: #fff;
 }

@@ -16,11 +16,11 @@ const SkillTest = () => {
 
   return (
     <Fragment>
-      <div className="main-container">
+      <div  id="main-container" className="main-container">
         <div className="navbar">
           <div className="left-side">
             <div src="icon" className="icon" />
-            <a href="#home-container ">
+            <a href="#main-container ">
               <ul className="title">
                 <li>Minnewaska</li>
                 <li>State Park Preserve</li>
@@ -35,7 +35,7 @@ const SkillTest = () => {
           </div>
         </div>
 
-        <ul id="home-container" className="home-container">
+        <ul className="home-container">
           <li className="home-title">Minnewaska</li>
           <li className="home-title">State Park Preserve</li>
         </ul>
@@ -45,7 +45,7 @@ const SkillTest = () => {
         <div className="navbar">
           <div className="left-side">
             <div src="icon" className="icon" />
-            <a href="#home-container ">
+            <a href="#main-container ">
               <ul className="title">
                 <li>Minnewaska</li>
                 <li>State Park Preserve</li>
@@ -72,38 +72,48 @@ const SkillTest = () => {
           this natural gem, drawing visitors from around the world."
         </p>
 
-        
         <Slider className="carousel" {...settings}>
           <div>
-            <img src="https://www.travelingfoundlove.com/wp-content/uploads/2021/10/Hiking-in-Hudson-Valley-18.jpg" alt="Carousel Image 1" className="carousel-image" />
+            <img
+              src="https://www.travelingfoundlove.com/wp-content/uploads/2021/10/Hiking-in-Hudson-Valley-18.jpg"
+              alt="Carousel Image 1"
+              className="carousel-image"
+            />
           </div>
           <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI01GM33uqaiBJh4eBBQHqStm-1QyNhxHPauwEFr9Fng&usqp=CAU&ec=48600113" alt="Carousel Image 2"  className="carousel-image"/>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI01GM33uqaiBJh4eBBQHqStm-1QyNhxHPauwEFr9Fng&usqp=CAU&ec=48600113"
+              alt="Carousel Image 2"
+              className="carousel-image"
+            />
           </div>
           <div>
-            <img src="https://scenichudson.org/wp-content/uploads/2020/03/scenichudson_72373420-1400x1019.jpg" alt="Carousel Image 3" className="carousel-image"/>
+            <img
+              src="https://scenichudson.org/wp-content/uploads/2020/03/scenichudson_72373420-1400x1019.jpg"
+              alt="Carousel Image 3"
+              className="carousel-image"
+            />
           </div>
 
           <div>
-            <img src="https://scenichudson.org/wp-content/uploads/2020/03/scenichudson_72373420-1400x1019.jpg" alt="Carousel Image 3" className="carousel-image"/>
+            <img src="https://weekendwanderer2016.files.wordpress.com/2019/11/dsc04052-2_hdr_marked.jpg" alt="Carousel Image 3" className="carousel-image" />
           </div>
 
           <div>
-            <img src="https://scenichudson.org/wp-content/uploads/2020/03/scenichudson_72373420-1400x1019.jpg" alt="Carousel Image 3" className="carousel-image"/>
+            <img src="https://images.squarespace-cdn.com/content/v1/5b46c539f79392287e58d958/1561602927555-SWZS68BI582G5ML9MIE7/IMG_1552.jpg" alt="Carousel Image 3" className="carousel-image" />
           </div>
 
           <div>
-            <img src="https://scenichudson.org/wp-content/uploads/2020/03/scenichudson_72373420-1400x1019.jpg" alt="Carousel Image 3" className="carousel-image"/>
+            <img src="https://townsquare.media/site/706/files/2022/03/attachment-Sams-Featured.jpg" alt="Carousel Image 3" className="carousel-image" />
           </div>
 
           <div>
-            <img src="https://scenichudson.org/wp-content/uploads/2020/03/scenichudson_72373420-1400x1019.jpg" alt="Carousel Image 3" className="carousel-image"/>
+            <img src="https://hikethehudsonvalley.com/images/stories/Sams_Point/samspoint33.jpg" alt="Carousel Image 3" className="carousel-image" />
           </div>
 
           <div>
-            <img src="https://scenichudson.org/wp-content/uploads/2020/03/scenichudson_72373420-1400x1019.jpg" alt="Carousel Image 3" className="carousel-image"/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU5sIQvV6gjV3xd1HcsPJ-jmpwRgOZ9AaZjyFBRN7LqA&usqp=CAU&ec=48600113" alt="Carousel Image 3" className="carousel-image" />
           </div>
-
         </Slider>
       </div>
 
